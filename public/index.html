@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Remedy Setu · Sales Reply Assistant</title>
+  <meta name="theme-color" content="#7a1f1f" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='46' fill='%237a1f1f'/><text x='50' y='66' font-size='48' text-anchor='middle' fill='%23f6c35b' font-family='Arial' font-weight='700'>RS</text></svg>" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="logo">RS</span>
+      <div>
+        <div class="brand-name">Remedy Setu</div>
+        <div class="brand-sub">Sales Reply Assistant</div>
+      </div>
+    </div>
+    <span id="aiStatus" class="pill pill-muted">Checking AI…</span>
+  </header>
+
+  <nav class="tabs" role="tablist">
+    <button class="tab active" data-tab="assistant" role="tab">💬 Reply</button>
+    <button class="tab" data-tab="leads" role="tab">📋 Leads <span id="leadCount" class="count"></span></button>
+    <button class="tab" data-tab="prices" role="tab">💎 Price list</button>
+  </nav>
+
+  <main>
+    <!-- ============ ASSISTANT ============ -->
+    <section id="tab-assistant" class="tab-panel active">
+      <div class="grid">
+        <div class="card">
+          <label for="message" class="label">Customer's WhatsApp message</label>
+          <textarea id="message" rows="5" placeholder="Paste the message here… e.g. Neelam ka rate kya hai 5 ratti?"></textarea>
+
+          <div class="samples">
+            <span class="samples-label">Try:</span>
+            <button class="chip" data-sample="Neelam ka rate kya hai 5 ratti?">Neelam 5 ratti</button>
+            <button class="chip" data-sample="Rudraksha 100 pcs chahiye">Rudraksha 100 pcs</button>
+            <button class="chip" data-sample="Bhai 5 mukhi rudraksha 500 pcs aur sphatik mala 20 ka wholesale rate batao, Jaipur se hu">Bulk mix</button>
+            <button class="chip" data-sample="नमस्ते, पुखराज सवा पांच रत्ती की कीमत क्या है?">हिंदी</button>
+            <button class="chip" data-sample="Hi, what is the price of a 4 carat ruby? Also do you have diamond?">English + carat</button>
+            <button class="chip" data-sample="Mera order abhi tak nahi aaya, 10 din ho gaye">Complaint</button>
+            <button class="chip" data-sample="Rudrabhishek puja karwana hai next monday, kitna lagega?">Puja</button>
+            <button class="chip" data-sample="We need 50 rudraksha malas with our logo on the box">White-label</button>
+          </div>
+
+          <details class="customer">
+            <summary>Customer details <span class="muted">(optional — saved with the lead)</span></summary>
+            <div class="row3">
+              <input id="custName" placeholder="Name" autocomplete="off" />
+              <input id="custPhone" placeholder="WhatsApp number" inputmode="tel" autocomplete="off" />
+              <input id="custCity" placeholder="City" autocomplete="off" />
+            </div>
+          </details>
+
+          <div class="options">
+            <label><input type="checkbox" id="saveLead" checked /> Save as lead</label>
+            <label><input type="checkbox" id="includeLinks" /> Add product links</label>
+            <label id="useAIWrap"><input type="checkbox" id="useAI" checked /> Use AI</label>
+          </div>
+
+          <button id="analyzeBtn" class="btn btn-primary btn-block">Generate reply <span class="kbd">Ctrl ↵</span></button>
+          <p id="error" class="error" hidden></p>
+        </div>
+
+        <div class="card result" id="result">
+          <div class="empty">
+            <div class="empty-icon">🪔</div>
+            <p><strong>Paste a customer message</strong> and get the intent, matching products with the right tier price, and a ready-to-send reply in the customer's language.</p>
+            <p class="muted small">Prices always come from the price list — the AI is never allowed to invent a product or a rate.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ LEADS ============ -->
+    <section id="tab-leads" class="tab-panel">
+      <div class="stats" id="stats"></div>
+      <div class="card toolbar">
+        <input id="leadSearch" type="search" placeholder="Search name, phone, city, message…" />
+        <select id="leadStatus"><option value="">All statuses</option></select>
+        <select id="leadIntent"><option value="">All intents</option></select>
+        <a id="exportCsv" class="btn btn-ghost" href="/api/leads.csv" download>⬇ Export CSV</a>
+      </div>
+      <div id="leadList" class="lead-list"></div>
+    </section>
+
+    <!-- ============ PRICE LIST ============ -->
+    <section id="tab-prices" class="tab-panel">
+      <div class="card toolbar">
+        <input id="priceSearch" type="search" placeholder="Search products (neelam, rudraksha, puja…)" />
+      </div>
+      <p class="muted small pad">Bulk tier price applies to the total quantity ordered (gemstones: total ratti). Edit <code>data/price-list.json</code> to change products or prices.</p>
+      <div id="priceList"></div>
+    </section>
+  </main>
+
+  <div id="toast" class="toast" hidden></div>
+  <script src="app.js"></script>
+</body>
+</html>

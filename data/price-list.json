@@ -1,0 +1,819 @@
+{
+  "meta": {
+    "company": "Remedy Setu",
+    "currency": "INR",
+    "priceNote": {
+      "en": "GST extra as applicable. Free shipping across India on orders above ₹5,000.",
+      "hinglish": "GST extra as applicable. ₹5,000 se upar ke order par poore India mein free shipping.",
+      "hi": "GST अलग से लागू। ₹5,000 से ऊपर के ऑर्डर पर पूरे भारत में फ्री शिपिंग।"
+    },
+    "complaintResponseHours": 24,
+    "notCarried": [
+      "heera",
+      "hira",
+      "diamond",
+      "हीरा",
+      "american diamond",
+      "zircon",
+      "jarkan",
+      "tanzanite",
+      "parad",
+      "पारद"
+    ]
+  },
+  "products": [
+    {
+      "id": "GEM-NEELAM",
+      "category": "gemstone",
+      "name": {
+        "en": "Blue Sapphire (Neelam) – Ceylon",
+        "hinglish": "Neelam (Blue Sapphire) – Ceylon",
+        "hi": "नीलम (ब्लू सफायर) – सीलोन"
+      },
+      "aliases": [
+        "neelam",
+        "nilam",
+        "neelum",
+        "blue sapphire",
+        "shani ratna",
+        "नीलम",
+        "नीलम रत्न"
+      ],
+      "unit": "ratti",
+      "tiers": [
+        {
+          "min": 1,
+          "price": 6500
+        },
+        {
+          "min": 10,
+          "price": 5800
+        },
+        {
+          "min": 50,
+          "price": 5200
+        },
+        {
+          "min": 100,
+          "price": 4800
+        }
+      ],
+      "inStock": true,
+      "note": "Natural, unheated, with lab certificate",
+      "url": "https://remedysetu.com/products/neelam-blue-sapphire-ceylon"
+    },
+    {
+      "id": "GEM-PUKHRAJ",
+      "category": "gemstone",
+      "name": {
+        "en": "Yellow Sapphire (Pukhraj) – Ceylon",
+        "hinglish": "Pukhraj (Yellow Sapphire) – Ceylon",
+        "hi": "पुखराज (येलो सफायर) – सीलोन"
+      },
+      "aliases": [
+        "pukhraj",
+        "pukraj",
+        "pokhraj",
+        "pukhraaj",
+        "yellow sapphire",
+        "guru ratna",
+        "पुखराज"
+      ],
+      "unit": "ratti",
+      "tiers": [
+        {
+          "min": 1,
+          "price": 5500
+        },
+        {
+          "min": 10,
+          "price": 5000
+        },
+        {
+          "min": 50,
+          "price": 4500
+        },
+        {
+          "min": 100,
+          "price": 4200
+        }
+      ],
+      "inStock": true,
+      "note": "Natural, unheated, with lab certificate",
+      "url": "https://remedysetu.com/products/pukhraj-yellow-sapphire-ceylon"
+    },
+    {
+      "id": "GEM-MANIK",
+      "category": "gemstone",
+      "name": {
+        "en": "Ruby (Manik) – Mozambique",
+        "hinglish": "Manik (Ruby) – Mozambique",
+        "hi": "माणिक (रूबी) – मोज़ाम्बिक"
+      },
+      "aliases": [
+        "manik",
+        "manikya",
+        "maanik",
+        "ruby",
+        "surya ratna",
+        "माणिक",
+        "माणिक्य"
+      ],
+      "unit": "ratti",
+      "tiers": [
+        {
+          "min": 1,
+          "price": 4000
+        },
+        {
+          "min": 10,
+          "price": 3600
+        },
+        {
+          "min": 50,
+          "price": 3200
+        },
+        {
+          "min": 100,
+          "price": 2900
+        }
+      ],
+      "inStock": true,
+      "note": "Natural, with lab certificate",
+      "url": "https://remedysetu.com/products/manik-ruby-mozambique"
+    },
+    {
+      "id": "GEM-PANNA",
+      "category": "gemstone",
+      "name": {
+        "en": "Emerald (Panna) – Zambia",
+        "hinglish": "Panna (Emerald) – Zambia",
+        "hi": "पन्ना (एमराल्ड) – ज़ाम्बिया"
+      },
+      "aliases": [
+        "panna",
+        "pana",
+        "emerald",
+        "budh ratna",
+        "पन्ना"
+      ],
+      "unit": "ratti",
+      "tiers": [
+        {
+          "min": 1,
+          "price": 3500
+        },
+        {
+          "min": 10,
+          "price": 3100
+        },
+        {
+          "min": 50,
+          "price": 2800
+        },
+        {
+          "min": 100,
+          "price": 2500
+        }
+      ],
+      "inStock": true,
+      "note": "Natural, with lab certificate",
+      "url": "https://remedysetu.com/products/panna-emerald-zambia"
+    },
+    {
+      "id": "GEM-MOTI",
+      "category": "gemstone",
+      "name": {
+        "en": "Pearl (Moti) – South Sea",
+        "hinglish": "Moti (Pearl) – South Sea",
+        "hi": "मोती (पर्ल) – साउथ सी"
+      },
+      "aliases": [
+        "moti",
+        "mothi",
+        "pearl",
+        "chandra ratna",
+        "मोती"
+      ],
+      "unit": "ratti",
+      "tiers": [
+        {
+          "min": 1,
+          "price": 900
+        },
+        {
+          "min": 10,
+          "price": 800
+        },
+        {
+          "min": 50,
+          "price": 700
+        },
+        {
+          "min": 100,
+          "price": 600
+        }
+      ],
+      "inStock": true,
+      "note": "Natural, with lab certificate",
+      "url": "https://remedysetu.com/products/moti-pearl-south-sea"
+    },
+    {
+      "id": "GEM-MOONGA",
+      "category": "gemstone",
+      "name": {
+        "en": "Red Coral (Moonga) – Italian",
+        "hinglish": "Moonga (Red Coral) – Italian",
+        "hi": "मूंगा (रेड कोरल) – इटालियन"
+      },
+      "aliases": [
+        "moonga",
+        "munga",
+        "red coral",
+        "coral",
+        "mangal ratna",
+        "मूंगा",
+        "मूँगा"
+      ],
+      "unit": "ratti",
+      "tiers": [
+        {
+          "min": 1,
+          "price": 1200
+        },
+        {
+          "min": 10,
+          "price": 1050
+        },
+        {
+          "min": 50,
+          "price": 950
+        },
+        {
+          "min": 100,
+          "price": 850
+        }
+      ],
+      "inStock": true,
+      "note": "Natural, with lab certificate",
+      "url": "https://remedysetu.com/products/moonga-red-coral-italian"
+    },
+    {
+      "id": "GEM-GOMED",
+      "category": "gemstone",
+      "name": {
+        "en": "Hessonite (Gomed) – Ceylon",
+        "hinglish": "Gomed (Hessonite) – Ceylon",
+        "hi": "गोमेद (हेसोनाइट) – सीलोन"
+      },
+      "aliases": [
+        "gomed",
+        "gomedh",
+        "hessonite",
+        "rahu ratna",
+        "गोमेद"
+      ],
+      "unit": "ratti",
+      "tiers": [
+        {
+          "min": 1,
+          "price": 700
+        },
+        {
+          "min": 10,
+          "price": 600
+        },
+        {
+          "min": 50,
+          "price": 520
+        },
+        {
+          "min": 100,
+          "price": 450
+        }
+      ],
+      "inStock": true,
+      "note": "Natural, with lab certificate",
+      "url": "https://remedysetu.com/products/gomed-hessonite-ceylon"
+    },
+    {
+      "id": "GEM-LEHSUNIYA",
+      "category": "gemstone",
+      "name": {
+        "en": "Cat's Eye (Lehsuniya) – Ceylon",
+        "hinglish": "Lehsuniya (Cat's Eye) – Ceylon",
+        "hi": "लहसुनिया (कैट्स आई) – सीलोन"
+      },
+      "aliases": [
+        "lehsuniya",
+        "lahsuniya",
+        "lehsunia",
+        "lahsunia",
+        "cats eye",
+        "cat's eye",
+        "ketu ratna",
+        "लहसुनिया"
+      ],
+      "unit": "ratti",
+      "tiers": [
+        {
+          "min": 1,
+          "price": 1500
+        },
+        {
+          "min": 10,
+          "price": 1300
+        },
+        {
+          "min": 50,
+          "price": 1150
+        },
+        {
+          "min": 100,
+          "price": 1000
+        }
+      ],
+      "inStock": true,
+      "note": "Natural, with lab certificate",
+      "url": "https://remedysetu.com/products/lehsuniya-cats-eye-ceylon"
+    },
+    {
+      "id": "GEM-OPAL",
+      "category": "gemstone",
+      "name": {
+        "en": "Opal – Australian",
+        "hinglish": "Opal – Australian",
+        "hi": "ओपल – ऑस्ट्रेलियन"
+      },
+      "aliases": [
+        "opal",
+        "ओपल"
+      ],
+      "unit": "ratti",
+      "tiers": [
+        {
+          "min": 1,
+          "price": 1800
+        },
+        {
+          "min": 10,
+          "price": 1600
+        },
+        {
+          "min": 50,
+          "price": 1400
+        },
+        {
+          "min": 100,
+          "price": 1250
+        }
+      ],
+      "inStock": true,
+      "note": "Natural, with lab certificate",
+      "url": "https://remedysetu.com/products/opal-australian"
+    },
+    {
+      "id": "GEM-FIROZA",
+      "category": "gemstone",
+      "name": {
+        "en": "Turquoise (Firoza) – Iranian",
+        "hinglish": "Firoza (Turquoise) – Iranian",
+        "hi": "फिरोज़ा (टर्क्वॉइज़) – ईरानी"
+      },
+      "aliases": [
+        "firoza",
+        "feroza",
+        "firoja",
+        "turquoise",
+        "फिरोजा",
+        "फ़िरोज़ा"
+      ],
+      "unit": "ratti",
+      "tiers": [
+        {
+          "min": 1,
+          "price": 450
+        },
+        {
+          "min": 10,
+          "price": 400
+        },
+        {
+          "min": 50,
+          "price": 350
+        },
+        {
+          "min": 100,
+          "price": 300
+        }
+      ],
+      "inStock": true,
+      "note": "Natural",
+      "url": "https://remedysetu.com/products/firoza-turquoise-iranian"
+    },
+    {
+      "id": "GEM-KATELA",
+      "category": "gemstone",
+      "name": {
+        "en": "Amethyst (Katela) – Brazil",
+        "hinglish": "Katela (Amethyst) – Brazil",
+        "hi": "कटैला (एमेथिस्ट) – ब्राज़ील"
+      },
+      "aliases": [
+        "katela",
+        "kataila",
+        "jamunia",
+        "amethyst",
+        "कटैला",
+        "जामुनिया"
+      ],
+      "unit": "ratti",
+      "tiers": [
+        {
+          "min": 1,
+          "price": 250
+        },
+        {
+          "min": 10,
+          "price": 220
+        },
+        {
+          "min": 50,
+          "price": 190
+        },
+        {
+          "min": 100,
+          "price": 160
+        }
+      ],
+      "inStock": true,
+      "note": "Natural",
+      "url": "https://remedysetu.com/products/katela-amethyst-brazil"
+    },
+    {
+      "id": "RUD-5M-BEAD",
+      "category": "rudraksha",
+      "rudraksha": {
+        "mukhi": 5,
+        "form": "bead"
+      },
+      "name": {
+        "en": "5 Mukhi Rudraksha Bead – Nepal",
+        "hinglish": "5 Mukhi Rudraksha (Nepal)",
+        "hi": "5 मुखी रुद्राक्ष (नेपाल)"
+      },
+      "aliases": [],
+      "unit": "piece",
+      "tiers": [
+        {
+          "min": 1,
+          "price": 150
+        },
+        {
+          "min": 10,
+          "price": 120
+        },
+        {
+          "min": 100,
+          "price": 90
+        },
+        {
+          "min": 500,
+          "price": 70
+        }
+      ],
+      "inStock": true,
+      "note": "Original, X-ray tested",
+      "url": "https://remedysetu.com/products/5-mukhi-rudraksha-nepal"
+    },
+    {
+      "id": "RUD-5M-MALA",
+      "category": "rudraksha",
+      "rudraksha": {
+        "mukhi": 5,
+        "form": "mala"
+      },
+      "name": {
+        "en": "5 Mukhi Rudraksha Mala (108+1 beads)",
+        "hinglish": "5 Mukhi Rudraksha Mala (108+1 dane)",
+        "hi": "5 मुखी रुद्राक्ष माला (108+1 दाने)"
+      },
+      "aliases": [],
+      "unit": "mala",
+      "tiers": [
+        {
+          "min": 1,
+          "price": 1200
+        },
+        {
+          "min": 10,
+          "price": 1000
+        },
+        {
+          "min": 50,
+          "price": 850
+        },
+        {
+          "min": 100,
+          "price": 750
+        }
+      ],
+      "inStock": true,
+      "note": "Original, X-ray tested beads",
+      "url": "https://remedysetu.com/products/5-mukhi-rudraksha-mala"
+    },
+    {
+      "id": "RUD-7M-BEAD",
+      "category": "rudraksha",
+      "rudraksha": {
+        "mukhi": 7,
+        "form": "bead"
+      },
+      "name": {
+        "en": "7 Mukhi Rudraksha Bead – Nepal",
+        "hinglish": "7 Mukhi Rudraksha (Nepal)",
+        "hi": "7 मुखी रुद्राक्ष (नेपाल)"
+      },
+      "aliases": [],
+      "unit": "piece",
+      "tiers": [
+        {
+          "min": 1,
+          "price": 1800
+        },
+        {
+          "min": 10,
+          "price": 1600
+        },
+        {
+          "min": 50,
+          "price": 1400
+        },
+        {
+          "min": 100,
+          "price": 1250
+        }
+      ],
+      "inStock": true,
+      "note": "Original, X-ray tested",
+      "url": "https://remedysetu.com/products/7-mukhi-rudraksha-nepal"
+    },
+    {
+      "id": "RUD-1M-BEAD",
+      "category": "rudraksha",
+      "rudraksha": {
+        "mukhi": 1,
+        "form": "bead"
+      },
+      "name": {
+        "en": "1 Mukhi Rudraksha (Kaju) – South India",
+        "hinglish": "Ek Mukhi Rudraksha (Kaju)",
+        "hi": "एक मुखी रुद्राक्ष (काजू)"
+      },
+      "aliases": [],
+      "unit": "piece",
+      "tiers": [
+        {
+          "min": 1,
+          "price": 900
+        },
+        {
+          "min": 10,
+          "price": 800
+        },
+        {
+          "min": 50,
+          "price": 700
+        },
+        {
+          "min": 100,
+          "price": 600
+        }
+      ],
+      "inStock": true,
+      "note": "Original, X-ray tested",
+      "url": "https://remedysetu.com/products/1-mukhi-rudraksha-kaju"
+    },
+    {
+      "id": "RUD-GAURI-SHANKAR",
+      "category": "rudraksha",
+      "name": {
+        "en": "Gauri Shankar Rudraksha – Nepal",
+        "hinglish": "Gauri Shankar Rudraksha (Nepal)",
+        "hi": "गौरी शंकर रुद्राक्ष (नेपाल)"
+      },
+      "aliases": [
+        "gauri shankar",
+        "gaurishankar",
+        "gori shankar",
+        "गौरी शंकर",
+        "गौरीशंकर"
+      ],
+      "unit": "piece",
+      "tiers": [
+        {
+          "min": 1,
+          "price": 4500
+        },
+        {
+          "min": 10,
+          "price": 4000
+        },
+        {
+          "min": 50,
+          "price": 3600
+        },
+        {
+          "min": 100,
+          "price": 3300
+        }
+      ],
+      "inStock": true,
+      "note": "Original, X-ray tested",
+      "url": "https://remedysetu.com/products/gauri-shankar-rudraksha"
+    },
+    {
+      "id": "MALA-SPHATIK",
+      "category": "spiritual",
+      "name": {
+        "en": "Sphatik (Crystal) Mala – 108 beads",
+        "hinglish": "Sphatik Mala (108 dane)",
+        "hi": "स्फटिक माला (108 दाने)"
+      },
+      "aliases": [
+        "sphatik",
+        "sphatik mala",
+        "spatik",
+        "fatik",
+        "crystal mala",
+        "स्फटिक",
+        "स्फटिक माला"
+      ],
+      "unit": "mala",
+      "tiers": [
+        {
+          "min": 1,
+          "price": 450
+        },
+        {
+          "min": 10,
+          "price": 380
+        },
+        {
+          "min": 50,
+          "price": 320
+        },
+        {
+          "min": 100,
+          "price": 280
+        }
+      ],
+      "inStock": true,
+      "note": "Natural quartz",
+      "url": "https://remedysetu.com/products/sphatik-mala"
+    },
+    {
+      "id": "YANTRA-SHRI",
+      "category": "spiritual",
+      "name": {
+        "en": "Shri Yantra – Copper, 6 inch",
+        "hinglish": "Shri Yantra (Copper, 6 inch)",
+        "hi": "श्री यंत्र (तांबा, 6 इंच)"
+      },
+      "aliases": [
+        "shri yantra",
+        "sri yantra",
+        "shree yantra",
+        "shriyantra",
+        "श्री यंत्र",
+        "श्रीयंत्र"
+      ],
+      "unit": "piece",
+      "tiers": [
+        {
+          "min": 1,
+          "price": 650
+        },
+        {
+          "min": 10,
+          "price": 550
+        },
+        {
+          "min": 50,
+          "price": 480
+        },
+        {
+          "min": 100,
+          "price": 420
+        }
+      ],
+      "inStock": true,
+      "note": "Energised (pran-pratishthit)",
+      "url": "https://remedysetu.com/products/shri-yantra-copper"
+    },
+    {
+      "id": "PUJA-NAVGRAHA",
+      "category": "puja",
+      "name": {
+        "en": "Navgraha Shanti Puja",
+        "hinglish": "Navgraha Shanti Puja",
+        "hi": "नवग्रह शांति पूजा"
+      },
+      "aliases": [
+        "navgraha",
+        "navagraha",
+        "nav graha",
+        "navgrah",
+        "नवग्रह"
+      ],
+      "unit": "puja",
+      "tiers": [
+        {
+          "min": 1,
+          "price": 5100
+        }
+      ],
+      "inStock": true,
+      "note": "Online or offline, video shared",
+      "url": "https://remedysetu.com/puja/navgraha-shanti"
+    },
+    {
+      "id": "PUJA-RUDRABHISHEK",
+      "category": "puja",
+      "name": {
+        "en": "Rudrabhishek Puja",
+        "hinglish": "Rudrabhishek Puja",
+        "hi": "रुद्राभिषेक पूजा"
+      },
+      "aliases": [
+        "rudrabhishek",
+        "rudra abhishek",
+        "rudrabhishekam",
+        "रुद्राभिषेक"
+      ],
+      "unit": "puja",
+      "tiers": [
+        {
+          "min": 1,
+          "price": 3100
+        }
+      ],
+      "inStock": true,
+      "note": "Online or offline, video shared",
+      "url": "https://remedysetu.com/puja/rudrabhishek"
+    },
+    {
+      "id": "PUJA-MAHAMRITYUNJAYA",
+      "category": "puja",
+      "name": {
+        "en": "Mahamrityunjaya Jaap (1.25 lakh)",
+        "hinglish": "Mahamrityunjaya Jaap (sava lakh)",
+        "hi": "महामृत्युंजय जाप (सवा लाख)"
+      },
+      "aliases": [
+        "mahamrityunjaya",
+        "maha mrityunjaya",
+        "mahamrityunjay",
+        "mrityunjaya",
+        "महामृत्युंजय"
+      ],
+      "unit": "puja",
+      "tiers": [
+        {
+          "min": 1,
+          "price": 21000
+        }
+      ],
+      "inStock": true,
+      "note": "Performed by 11 pandits, video shared",
+      "url": "https://remedysetu.com/puja/mahamrityunjaya-jaap"
+    },
+    {
+      "id": "PUJA-KAALSARP",
+      "category": "puja",
+      "name": {
+        "en": "Kaal Sarp Dosh Puja – Trimbakeshwar",
+        "hinglish": "Kaal Sarp Dosh Puja (Trimbakeshwar)",
+        "hi": "काल सर्प दोष पूजा (त्र्यंबकेश्वर)"
+      },
+      "aliases": [
+        "kaal sarp",
+        "kalsarp",
+        "kaalsarp",
+        "kal sarp",
+        "काल सर्प",
+        "कालसर्प"
+      ],
+      "unit": "puja",
+      "tiers": [
+        {
+          "min": 1,
+          "price": 7500
+        }
+      ],
+      "inStock": true,
+      "note": "Performed at Trimbakeshwar, video shared",
+      "url": "https://remedysetu.com/puja/kaal-sarp-dosh"
+    }
+  ]
+}

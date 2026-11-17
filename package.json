@@ -1,0 +1,18 @@
+{
+  "name": "remedy-setu-sales-assistant",
+  "version": "1.0.0",
+  "description": "AI Sales Reply Assistant for Remedy Setu: paste a WhatsApp query, get intent, tier price from the price list and a ready-to-send reply",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test test/parser.test.js test/guardrails.test.js"
+  },
+  "engines": {
+    "node": ">=18.17"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.3.0"
+  }
+}

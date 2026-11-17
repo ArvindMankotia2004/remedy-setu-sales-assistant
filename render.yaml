@@ -1,0 +1,14 @@
+# One-click deploy on Render (free): New > Blueprint > pick this repo.
+services:
+  - type: web
+    name: remedy-setu-sales-assistant
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    
+    envVars:
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: APP_PASSWORD
+        sync: false
